@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Product;
 use Illuminate\Database\Eloquent\Model;
 
 class Brand extends Model
@@ -12,4 +13,6 @@ class Brand extends Model
     ];
     protected $primaryKey = 'brand_id';
  	protected $table = 'tbl_brand';
+
+
 }

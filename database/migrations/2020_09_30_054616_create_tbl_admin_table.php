@@ -13,15 +13,15 @@ class CreateTblAdminTable extends Migration
      */
     public function up()
     {
-//        Schema::create('tbl_admin', function (Blueprint $table) {
-//            $table->increments('admin_id');
-//            $table->string('admin_email');
-//            $table->string('admin_password');
-//            $table->string('admin_name');
-//            $table->string('admin_phone');
-//            $table->timestamps();
-//
-//        });
+        Schema::create('tbl_admin', function (Blueprint $table) {
+            $table->increments('admin_id');
+            $table->string('admin_email');
+            $table->string('admin_password');
+            $table->string('admin_name');
+            $table->string('admin_phone');
+            $table->timestamps();
+
+        });
     }
 
     /**
